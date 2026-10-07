@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="chrono_recall"
+version="1.0.0"
+displayName="Chrono Recall"
+description='''
+Press R to rewind 5 seconds. Restores position, health, and hunger.
+30-second cooldown. Purple particles burst on recall.
+'''
+
+[[dependencies.chrono_recall]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.chrono_recall]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.21)"
+    ordering="NONE"
+    side="BOTH"
